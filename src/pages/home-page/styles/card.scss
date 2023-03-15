@@ -36,6 +36,9 @@
 	@media screen and (min-width: 1200px) {
 		width: 208px;
 		margin-bottom: 8px;
+		&:hover {
+			opacity: 0.8;
+		}
 	}
 	&__img {
 		width: 28px;
