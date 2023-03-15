@@ -7,7 +7,7 @@
 		flex-direction: column;
 	}
 
-	@media screen and (min-width: 1400px) {
+	@media screen and (min-width: 1200px) {
 		width: auto;
 		flex-direction: row;
 	}
@@ -23,7 +23,7 @@
 		flex-direction: column;
 	}
 
-	@media screen and (min-width: 1400px) {
+	@media screen and (min-width: 1200px) {
 		width: auto;
 		flex-direction: row;
 		gap: 100px;
@@ -31,7 +31,7 @@
 }
 
 .text-wrapper {
-	@media screen and (min-width: 1400px) {
+	@media screen and (min-width: 1200px) {
 		width: 467px;
 		height: 232px;
 		gap: 24px;
