@@ -1,0 +1,18 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	background-color: var(--color-bg);
+	@media screen and (min-width: 730px) {
+		margin: 0;
+		height: 100vh;
+	}
+}
